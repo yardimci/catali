@@ -1,0 +1,25 @@
+# IntelliJ files
+.idea
+*.iml
+.jpb
+
+#MacOS files
+*.DS_Store
+
+# compiled artifacts are located here
+target/
+
+# vim swap files
+*.swp
+*.swo
+
+# created by docs/bin/build_deps_graph.sh
+corebe.png
+doc/bin/corebe.dot
+doc/uml/login_flow/*.png
+doc/uml/login_flow/*.svg
+doc/uml/deployment/*.png
+doc/uml/deployment/*.svg
+
+# postman environments for azure deployments
+bp-az_*.json
